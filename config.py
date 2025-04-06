@@ -1,7 +1,9 @@
 # Copyright (c) 2022 Itz-fork
 
-import os
 
+import os
+import re
+from os import environ, getenv
 class Config(object):
     # Mandotory
     APP_ID = int(os.environ.get("APP_ID"))
